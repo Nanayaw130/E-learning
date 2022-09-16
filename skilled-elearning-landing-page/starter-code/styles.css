@@ -290,7 +290,9 @@ h1{
        .header{
          margin:50px;
        }
-
+        .content .link{
+          margin-top:10;
+        }
        .content-1 h1 {
          font-size: 62px;
          line-height: 70px;
@@ -315,6 +317,7 @@ h1{
        .container-1,
        .content {
          width: 100%;
+        
        }
      
        .footer{
