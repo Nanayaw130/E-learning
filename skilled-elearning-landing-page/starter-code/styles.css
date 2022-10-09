@@ -313,6 +313,10 @@ h1{
             line-height:40px ;
             padding-top: 65px;
           }
+          .content .link{
+            margin-top: 0;
+            margin-bottom:-12px;
+           }
           
          
         
