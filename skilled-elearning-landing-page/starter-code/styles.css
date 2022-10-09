@@ -259,7 +259,7 @@ h1{
             top: 0;
             right: -200px;
             width: 55%;
-            height: 85vh;
+            height: 88vh;
           
             
            
@@ -278,12 +278,12 @@ h1{
             
           }
           .content-1 p{
-            font-size: 27px;
+            font-size: 25px;
             
           }
           .started-btn{
             width:180px;
-            height:63px;
+            height:59px;
             text-align: center;
             font-size: 18px;
             font-weight: 600;
@@ -294,7 +294,7 @@ h1{
           }
    
           .content-1 h1 {
-            font-size: 56px;
+            font-size: 55px;
             line-height: 45px;
           }
         
