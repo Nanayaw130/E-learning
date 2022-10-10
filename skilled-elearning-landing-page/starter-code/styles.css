@@ -183,22 +183,24 @@ h1{
          background-position: bottom left;
          background-size: cover;
          position: absolute;
-         top: -80px;
-         right: 0;
-         width: 53%;
-         height:65vh;
+         top: 0px;
+         right: 0px;
+         width: 50%;
+         height:63vh;
          
       }
+      
       .header-btn
       {
          z-index: 1000;
       }
       .started-btn{
         margin-top: 20px;
+        height:43px;
       }
       .container{
          align-items: center;
-         height: 50vh;
+         height: 68vh;
          width: 48%;
          margin-top: 5rem;
          margin-bottom: 5rem;
@@ -211,6 +213,9 @@ h1{
        }
        .content-1 h1{
          font-size: 36px;
+         line-height: 33px;
+         margin-top: 0px;
+         margin-bottom: 20px;
        }
        .content .link{
         margin-top: 0;
@@ -220,6 +225,9 @@ h1{
        {
          font-size: 13px;
    
+       }
+       .content-1 p{
+        margin-bottom: 10px;
        }
        .content{
         height:250px;
@@ -233,11 +241,8 @@ h1{
          display: grid;
          grid-template: repeat(3, 30%)/1fr 1fr;
          gap: 32px 15px;
-         margin: auto;
-          }    
-          .content-1{
-            margin-top: -30px;
-       }
+         margin-top: -200px;
+          }   
      
       }
        @media(min-width:900px){  
@@ -246,9 +251,15 @@ h1{
             width: 90%;
           
           }      
-         .section-2{
-          height: 980px;
+         .section-1{
           margin-bottom: 100px;
+          margin-top: -50px;
+         
+         }
+         .wrapper .content-1{
+          
+          overflow-x: hidden;
+          
          }
          .images-hero {
             
@@ -259,10 +270,8 @@ h1{
             top: 0;
             right: -200px;
             width: 55%;
-            height: 88vh;
+            height: 88vh;  
           
-            
-           
 
          }
           
@@ -279,9 +288,11 @@ h1{
           }
           .content-1 p{
             font-size: 25px;
+            line-height: 25px;
             
           }
           .started-btn{
+            margin-top: 50px;
             width:180px;
             height:59px;
             text-align: center;
@@ -295,7 +306,8 @@ h1{
    
           .content-1 h1 {
             font-size: 55px;
-            line-height: 45px;
+            line-height: 50px;
+            margin-bottom: 20px;
           }
         
           .section-2{
@@ -305,6 +317,7 @@ h1{
             grid-template-rows: repeat(2, 44%);
             gap: 56px 30px;
             margin-top: 0px;
+            margin-bottom: 100px;
           }
           
           .container-1{
