@@ -9,11 +9,12 @@
 }
 body{
   background: linear-gradient( rgba(255, 255, 255, 1) 0%,rgba(240,241,255) 100% );
+ 
 }
  .wrapper{
         
     color: rgb(19,24,63);
-    
+  
     margin:13px;
    }
  .header{
@@ -173,20 +174,24 @@ h1{
         var(--bg-start-btn);
      }
 
-     @media(min-width: 580px){
+     @media(min-width: 481px){
+      .wrapper{
+       position: relative;
+       overflow: hidden;
+       margin-right: 0;
+      }
       .header,.container{
-         margin-left:60px;
+         margin-left:45px;
       }
       .images-hero{
          background-image: url("./assets/image-hero-tablet.png");
-         background-repeat: no-repeat;
-         background-position: bottom left;
-         background-size: cover;
+         background-repeat:no-repeat;
          position: absolute;
-         top: 0px;
-         right: 0px;
-         width: 50%;
-         height:63vh;
+	       background-size:cover;
+         width: 300px;
+          height: 400px;
+          top:50px;
+         right:-80px;
          
       }
       
@@ -200,15 +205,14 @@ h1{
       }
       .container{
          align-items: center;
-         height: 68vh;
-         width: 48%;
+         
+         width: 45%;
          margin-top: 5rem;
-         margin-bottom: 5rem;
+         margin-bottom: 10rem;
          overflow-x: hidden;
        }
       .container-1{
         height:250px;
-        margin-left: 16px;
          padding: 56px 32px;
        }
        .content-1 h1{
@@ -233,6 +237,7 @@ h1{
         height:250px;
         width: 100%;
        margin-top:0px;
+       
        }
       
        .section-2{
@@ -241,36 +246,41 @@ h1{
          display: grid;
          grid-template: repeat(3, 30%)/1fr 1fr;
          gap: 32px 15px;
-         
+         margin-left:20px;
           }   
      
       }
-       @media(min-width:900px){  
+      @media (min-width:630px){
+        .images-hero{
+          background-image: url("./assets/image-hero-tablet.png");
+          background-repeat:no-repeat;
+          position: absolute;
+       background-size:cover;
+        width: 450px;
+         height: 450px;
+         top:0px;
+          right:-140px;
+       }
+      }
+       @media(min-width:1001px){  
         
-          .wrapper{
-            width: 90%;
-          
-          }      
-         .section-1{
-          margin-bottom: 100px;
-          margin-top: -50px;
+              .section-1{
+                height: 90vh;
+              }
          
-         }
-         .wrapper .content-1{
-          
-          overflow-x: hidden;
-          
+         .container{
+          height: 100vh;
          }
          .images-hero {
             
-            background-image: url(./assets/image-hero-desktop.png);
+            background-image: url(./assets/image-hero-desktop@2x.png);
             background-repeat: no-repeat;
             background-position: bottom left;
             position: absolute;
-            top: 0;
-            right: -200px;
-            width: 55%;
-            height: 88vh;  
+            top: 80px;
+            right: -60px;
+            width: 30%;
+            height: 75vh;  
           
 
          }
@@ -321,7 +331,7 @@ h1{
           }
           
           .container-1{
-            height:280px;
+            height:250px;
             font-size: 30px;
             line-height:40px ;
             padding-top: 65px;
